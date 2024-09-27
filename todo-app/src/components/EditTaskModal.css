@@ -1,0 +1,39 @@
+input[type="text"],
+input[type="date"],
+select {
+    width: 85%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    box-shadow: 0 2px 5px rgba(66, 66, 66, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#save{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    width: 7rem;
+    height: 2rem;
+    background-color: #4f4fea;
+    border-radius: 7px;
+}
+
+#cancel{
+    cursor: pointer;
+    margin-left: 15px;
+    color: rgb(43, 41, 41);
+    font-size: 15px;
+    width: 7rem;
+    height: 2rem;
+    background-color: #bcbcd5;
+    border-radius: 7px;
+}
